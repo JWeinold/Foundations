@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 30px;
+}
+#title-image  {
+  display:block;
+  margin: 0 auto;
+}
+.parents  {
+  font-size: 15px;
+  font-weight:bold;
+  }
+.children {
+  font-weight:bold;
+}
+.grandchildren {
+    font-style: italic;
+}
+.sidebar {
+  background-color: #FFC3A0;
+  border: 10px solid #db8171;
+  height: 150px;
+  width: 200px;
+  margin-top: -60px;
+  margin-right: 50px;
+  padding: 5px;
+  position:absolute;
+  right: 0; // position element to the right
+  }
+  .reference {
+    font-size: 10px;
+  }
+  .parent-image {
+    float:right;
+    margin: 0px 500px 15px 0px;
+    height: 120px;
+    width: 120px;
+  }
+.family-name {
+  font-size: 20px;
+  text-color: blue;
+  text-style: italics;
+  padding-top: 30px;
+}
+ul.nav li {
+     display: inline;
+     padding-right: 20px;
+}
+footer {
+  font-size: 10px;
+  margin-top: 500px;
+}
